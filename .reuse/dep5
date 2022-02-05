@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Sommelier Core Scripts' hook based initialization speed-up PoC
 Upstream-Contact: 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com>
-Source: https://github.com/brlin-tw/sommelier-hook-based-init-speedup-poc
+Source: https://github.com/brlin-tw/sommelier-hook-speedup-poc
 
 Files:
  *README.md
