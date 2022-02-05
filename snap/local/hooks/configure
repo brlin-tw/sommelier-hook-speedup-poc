@@ -1,0 +1,26 @@
+#!/usr/bin/env sh
+# Snap configure hook
+#
+# Reference:
+#
+# * Snapcraft hook support - doc - snapcraft.io
+#   https://forum.snapcraft.io/t/snapcraft-hook-support/19069
+# * The configure hook - Supported snap hooks - doc - snapcraft.io
+#   https://forum.snapcraft.io/t/supported-snap-hooks/3795#heading--the-configure-hook
+#
+# 林博仁(Buo-ren, Lin) <Buo.Ren.Lin@gmail.com> © 2022
+# SPDX-License-Identifier: CC-BY-SA-4.0
+set \
+    -o errexit \
+    -o nounset
+
+export SNAP_USER_COMMON="${SNAP_COMMON}"
+
+# NOTE: Not runnable with `xvfb-run: error: Xvfb failed to start` error
+#xvfb-run \
+#    sommelier \
+#        wineboot \
+#            --init
+sommelier \
+    wineboot \
+        --init
