@@ -1,4 +1,4 @@
-# Sommelier Core Scripts' hook based initialization speed-up PoC
+# Sommelier Core Scripts' hook based initialization speed-up PoC(incomplete)
 
 Cut down first launch time by doing the Wine initialization process
 during snap install using Snapd's hook mechanism.
